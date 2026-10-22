@@ -369,22 +369,6 @@ localStorage.removeItem("medicalNlpFrontendLogConsole")        // 关闭
 - [V11 性能指标采集实施记录](docs/V11性能指标采集实施记录.md)
 - [评估模块说明](backend/evaluation/README.md) · [测试说明](backend/tests/README.md) · [LangGraph 流程](backend/graph/README.md)
 
-## 🗺 边界与后续方向
-
-**当前边界**
-
-- 主流程只处理医学缩写，不承诺覆盖整句所有医学实体。
-- fallback、coverage、verifier、LLM triage 依赖可用的 LLM API。
-- 标准化效果取决于 Milvus collection、embedding 模型和数据质量。
-
-**后续计划**
-
-- [ ] 新增 `/full-standardize`：整段临床文本的 NER + 实体标准化
-- [ ] Benchmark 数据集版本管理与固定回归集、串行 / 并行对照
-- [ ] 将 integration / live 测试接入可控的 Docker 验证流程
-- [ ] 细化 Embedding、Milvus、LLM 各依赖阶段的可观测性
-- [ ] 扩充医学实体类型与药品标准化能力
-
 ## 📄 License
 
 当前未指定开源许可证，主要用于个人项目展示、学习与面试交流。
