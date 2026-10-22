@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="frontend/assets/medical-nlp-sidebar-logo.png" width="300" alt="Medical NLP logo" />
+<img src="frontend/assets/medical-nlp-sidebar-logo.png" width="300" alt="Medical-Terminology-Standardization logo" />
 
-# Medical NLP V11
+# Medical-Terminology-Standardization
 
 **临床文本医学缩写的扩写 · 标准概念映射 · 评估复盘工作台**
 
